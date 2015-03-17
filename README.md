@@ -16,15 +16,10 @@ First install the npm package
 ```
 var unstructured = require('unstructured');
 
-
 unstructured.save({test: 'Lol'});
-
 unstructured.save('This is a fullText example');
-
 unstructured.save('<test></test>');
-
 unstructured.save(Image);
-
 unstructured.list().then(
 	function(data) {
 		console.log(data);
